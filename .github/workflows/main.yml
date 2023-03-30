@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: "preparing"
-       run: "preparing"
+       run: "ls -lah"
   hello_world_job:
     runs-on: ubuntu-latest
     name: A job to say hello
